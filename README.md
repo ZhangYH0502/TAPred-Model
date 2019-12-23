@@ -16,6 +16,7 @@ How to train your model for GA location:
     (a) IS/OS layer segmentation, which can be segmented by an automated or manual layer segmentation method;
     (b) GA registration: which can be performed with the automated registration method or manual registration;
     (c) GA segmentation: the segmented GA masks can be used train the model as supervision labels, which can be obtained                         by automated GA segmentation method or manual annotation.
+    the pre-precessing codes can be found in "TAPred-Model/data_prepare/preprocess"
 
 (3) Run "data_prepare/preprocess/flatten_img.m" to flatten the images.
 
