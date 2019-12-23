@@ -14,9 +14,11 @@ How to train your model for GA location:
 
 (2) To run the code, several pre-processing steps need to be prepared in advance.
     (a) IS/OS layer segmentation, which can be segmented by an automated or manual layer segmentation method;
+        running "TAPred-Model/data_prepare/preprocess/Layer_Segmentation/Bscan_GAseg"
     (b) GA registration: which can be performed with the automated registration method or manual registration;
+        running "TAPred-Model/data_prepare/preprocess/GA_Registration/demos/SIFTflowDemo"
     (c) GA segmentation: the segmented GA masks can be used train the model as supervision labels, which can be obtained                         by automated GA segmentation method or manual annotation.
-    the pre-precessing codes can be found in "TAPred-Model/data_prepare/preprocess"
+        running "TAPred-Model/data_prepare/preprocess/GA_Segmentation/Bscan_GAseg"
 
 (3) Run "data_prepare/preprocess/flatten_img.m" to flatten the images.
 
