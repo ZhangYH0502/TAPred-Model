@@ -37,7 +37,7 @@ def main(argv=None):
     print("global_variables_initializer")
     sess.run(tf.global_variables_initializer())
 
-    saver.restore(sess, 'logs/model.ckpt-00')
+    saver.restore(sess, 'logs/model.ckpt-01')
     print("Model restored...")
     
     # read test image
